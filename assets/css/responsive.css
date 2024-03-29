@@ -1,0 +1,304 @@
+@media screen and (max-width: 1505px){
+    #cover-text .first{
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 1480.9px){
+    .approach-img{
+        height: 325px;
+    }
+    #copyright p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1337px){
+    #cover-text .first{
+        font-size: 33px;
+    }
+    #approach .approach-3{
+        background-position-x: 80%;
+    }
+    #social i{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 1213.9px){
+    .approach-img{
+        height: 350px;
+    }
+    #contact form input[type="date"]{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1169px){
+    #cover-text h5{
+        font-size: 17px;
+    }
+    #cover-text .first, .success-resp{
+        display: none;
+    }
+    #cover-text .resp{
+        display: block !important;
+        font-size: 33px;
+    }
+    #cover-text .break{
+        display: block;
+    }
+    #approach .approach-2{
+        background-position-x: 50%;
+    }
+    #approach .approach-1{
+        background-position-x: 30%;
+    }
+    .resp-2{
+        display: block !important;
+    }
+    #social i{
+        font-size: 23px;
+    }
+    .c-footer i{
+        display: block;
+    }
+    .c-footer{
+        text-align: center;
+    }
+    .sc-break{
+        display: block !important;
+    }
+    #social li:nth-child(3){
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width: 1109.9px){
+    .approach-img{
+        height: 375px;
+    }
+    #contact .form-select{
+        width: 14%;
+    }
+}
+@media screen and (max-width: 991.9px){
+    #cover-text .resp{
+        display: none !important;
+    }
+    #cover-text .first{
+        display: block !important;
+    }
+    #cover-text{
+        margin: 30px auto;
+        padding: 0;
+    }
+    #cover-img{
+        margin: 0px auto !important;
+        padding-right: 0 !important;
+    }
+    #cover{
+        padding-bottom: 30px !important;
+    }
+    .approach-img, .approach-text{
+        width: 50%;
+        border-radius: 0;
+    }
+    .app-block-1, .app-block-2, .app-block-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .why-middle{
+        margin: 30px 0px;
+    }
+    .why-block-1, .why-block-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .why-block-1 .why-text, .why-block-3 .why-text{
+        margin-bottom: 0 !important;
+    }
+    .why-block-1 .why-text, .why-block-3 .why-text{
+        width: 45%;
+    }
+    .sc-break{
+        display: none !important;
+    }
+    #social li:nth-child(3){
+        margin-right: 16px !important;
+    }
+    .serv-block{
+        flex-direction: column;
+    }
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .serv-text{
+        width: 100% !important;
+        padding: 30px !important;
+    }
+    .serv-img{
+        width: 75%;
+    }
+    .about-wrap{
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+        flex-direction: column-reverse;
+    }
+    .team-block:nth-child(1), .team-block:nth-child(2){
+        margin-bottom: 20px;
+    }
+    .contact-wrap{
+        margin-bottom: 20px;
+    }
+    #contact form input[type="date"]{
+        width: 20%;
+    }
+    #contact .form-select{
+        width: 9%;
+    }
+}
+@media screen and (max-width: 860px){
+    #approach .approach-3{
+        background-position-x: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    #cover-text{
+        width: 80%;
+    }
+    #contact form input[type="date"]{
+        width: 25%;
+    }
+    #contact .form-select{
+        width: 12%;
+    }
+    .author-text{
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 699.9px){
+    .app-block-1, .app-block-3{
+        flex-direction: column;
+    }
+    .app-block-2{
+        flex-direction: column-reverse;
+    }
+    .approach-img, .approach-text{
+        width: 100%;
+    }
+    #approach{
+        padding: 16px !important;
+    }
+    .heading h1{
+        font-size: 28px;
+    }
+    .heading h5{
+        font-size: 18px;
+    }
+    .success-block h6{
+        font-size: 25px;
+    }
+    .why-resp, .test-resp{
+        display: none;
+    }
+    .resp-3, .resp-4{
+        display: block !important;
+    }
+    #contact-info ul{
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    #contact-info ul li{
+        padding-bottom: 0 !important;
+    }
+    .approach-img{
+        border-radius: 10px;
+    }
+}
+@media screen and (max-width: 579px){
+    #cover-text .first{
+        font-size: 28px;
+    }
+    #cover-text h5, .why-block-1 h5, .why-block-3 h5, .carousel h5, .heading h5, #footer h5, .about-block h5, .team-block h5, .contact-wrap h5{
+        font-size: 16px;
+    }
+    #cover-text a, .why-middle a, .carousel p, #footer li, .serv-text p, .about-block p, .team-block p, .team-block button,
+    #contact form button, #contact .form-check-label, #contact-info ul li{
+        font-size: 14px;
+    }
+    .author-text p{
+        font-size: 18px !important;
+    }
+    .heading h1{
+        font-size: 26px;
+    }
+    .why-block-1, .why-block-3{
+        flex-direction: column;
+    }
+    .why-block-1 .why-text, .why-block-3 .why-text{
+        width: 100%;
+    }
+    .why-block-1 .why-text, .why-block-3 .why-text{
+        margin-bottom: 24px !important;
+    }
+    .serv-text h3, .author-text h4{
+        font-size: 20px;
+    }
+    .team-block:nth-child(3), .team-block:nth-child(4){
+        margin-bottom: 20px;
+    }
+    .team-wrap{
+        justify-content: center;
+    }
+    #contact .form-select{
+        width: 18%;
+    }
+    #contact form input[type="date"]{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 491px){
+    #logo{
+        width: 22%;
+    }
+    #cover-text{
+        width: 100%;
+    }
+    .success-wrap{
+        flex-direction: column;
+    }
+    .success-block{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 425px){
+    #cover-text .first{
+        font-size: 24px;
+    }
+    #cover-text h5{
+        font-size: 14px;
+    }
+    #cover-text a, #back-to-top a, #about-to-contact a, #contact form button{
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .serv-text{
+        padding: 5px !important;
+    }
+    #contact form input[type="date"]{
+        width: 50%;
+    }
+    #contact .form-select{
+        width: 22%;
+    }
+}
+@media screen and (max-width: 340px){
+    #cover-text .first{
+        font-size: 22px;
+    }
+    #cover-text a{
+        font-size: 10px;
+    }
+    .heading h1{
+        font-size: 24px;
+    }
+}

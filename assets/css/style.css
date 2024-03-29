@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Exo 2", sans-serif;
+    background-color: #029e89;
+}
+
+  @keyframes text-focus {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+  }
+
+.btn:hover{
+    color:#208388;
+    border: 1px solid #208388;
+}
+
+ul{
+    list-style: none;
+}
+
+    /* HEADER  */
+
+#header, .serv-block{
+    background-color: #029e89;                /* #208388  cover/footer,  #029e89  header*/  
+}
+.active-link, .nav-link:hover{
+    color:#99cbc2 !important;
+}
+
+    /* COVER  */
+
+#cover, #testimonials, #success, #footer, #services, #about, #our-team .card, #our-team .modal-content, #contact, #author{
+    background-color: #208388;
+}
+#cover h1{
+    font-size: 43px;
+}
+#cover h5, #approach p, .success-block p, .success-block i, .heading h5, .why-text p, .why-text i, #testimonials p, #footer ul li, #contact form, 
+#footer ul li a, #copyright p, .serv-text p, .about-block p, #our-team .card-body p, .author-text p{
+    color: #c8ede7 !important;  /* text #c8ede7 */
+}
+#cover-text{
+    animation: text-focus 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+    /* APPROACH  */
+
+.approach-shadow, .why-text{
+    box-shadow: 0px 0px 5px 1px #fff;
+}
+.approach-img{
+    width: 100%;
+    height: 301px;
+    background-size: cover;
+}
+.approach-1{
+    background-image: url('../img/approach-img-1.png');
+    border-radius: 8px 0px 0px 0px;
+}
+.approach-2{
+    background-image: url('../img/approach-img-2.png');
+}
+.approach-3{
+    background-image: url('../img/approach-img-3.png');
+    border-radius: 0px 8px 0px 0px;
+}
+
+
+    /* SUCCESS  */
+
+.success-block h6, .success-block i{
+    font-size: 30px;
+}
+
+    /* WHY US  */
+
+.why-text{
+    border: 2px solid #fff;
+    border-radius: 5% 95% 5% 95% / 95% 5% 95% 5%;
+    background-color: #208388;
+}
+
+    /* TESTIMONIALS  */
+
+.c-img-block{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+.client-1{
+    background-image: url('../img/client-img-1.jpg');
+    background-position: 60% 50%;
+}
+.client-2{
+    background-image: url('../img/client-img-2.jpg');
+    background-position: 50% 30%;
+}
+.client-3{
+    background-image: url('../img/client-img-3.jpg');
+    background-position: 90% 50%;
+}  
+    /* SERVICES PAGE  */
+
+.serv-img{
+    width: 30%;
+}
+
+    /* CONTACT PAGE  */
+
+#contact .form-select{
+    width: 12%;
+}
+#contact form input[type="date"]{
+    width: 20%;
+}
